@@ -9,5 +9,6 @@ if (pageUrl.indexOf("localhost") === -1) {
   enableProdMode();
   alert('prod mode enabled');
 } else {
-  alert('dev mode left');
+  alert('dev mode left: ' + pageUrl);
+
 }
